@@ -1,13 +1,106 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+  max-width: 550px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bold {
+  font-weight: bold;
+}
+
+.grey {
+  color: #918e9b;
+  margin-right: 2px;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  background: #ffffff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.logo {
+  width: 155px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.hero-div {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+}
+
+.hero-img {
+  width: 400px;
+  height: 232px;
+  align-self: center;
+  margin-top: 26px;
+}
+
+.hero-h1 {
+  margin-left: 36px;
+  margin-bottom: auto;
+  font-size: 36px;
+}
+
+.hero-p {
+  margin-left: 36px;
+  max-width: 320px;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card-div {
+  position: relative;
+  margin-left: 36px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.intro {
+  overflow: hidden;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  margin-top: auto;
+}
+
+.star {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+
+.badge-text {
+  position: absolute;
+  height: 15px;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 4px;
+  font-weight: bold;
 }
